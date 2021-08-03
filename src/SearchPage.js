@@ -1,5 +1,6 @@
 import React from "react"
 import "./SearchPage.css"
+import ChannelRow from "./ChannelRow"
 import TuneIcon from "@material-ui/icons/Tune"
 
 function SearchPage() {
@@ -13,7 +14,7 @@ function SearchPage() {
 
       <ChannelRow
         image="https://yt3.ggpht.com/UUUBRjUs2lBdKGgtOfsHifIXscTWf8HVf5xm0qUQsHPTDyGWqqKivQUmIKopoGYRIlU7W26lGA=s176-c-k-c0x00ffffff-no-rj-mo"
-        Channel="FC Barcelona"
+        channel="FC Barcelona"
         verified
         subs="12.1M"
         noOfVideos={(9, 245)}
